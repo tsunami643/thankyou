@@ -11,8 +11,8 @@ body {
 .content {
     margin: 0 auto;
     width: 100%;
-    max-width: 1050px;
-    min-height: 475px;
+    max-width: 1070px;
+    min-height: 425px;
     padding: 50px 40px;
     text-align: center;
     font-family: "Raleway";
@@ -45,7 +45,7 @@ h1 {
     text-align: center;
 }
 
-p {
+p, .ytline {
     font-size: 1.2em;
     line-height: 1.5;
 }
@@ -86,9 +86,10 @@ a:hover {
 @media (max-width: 767px) {
     .fullscreen-bg {
         background: url('http://dev2.slicejack.com/fullscreen-video-demo/img/videoframe.jpg') center center / cover no-repeat;
+				opacity: 0.35;
     }
 
-    .fullscreen-bg__video {
+    .fullscreen-bg__video, .ytline {
         display: none;
     }
 }
